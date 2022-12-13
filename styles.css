@@ -2,6 +2,7 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
+    viewport-fit: top;
 }
 
 /* Style the links inside the navigation bar */
@@ -24,6 +25,21 @@
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+.project-tile {
+    text-decoration: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
 }
 
 @media only screen and (max-width: 600px) {
